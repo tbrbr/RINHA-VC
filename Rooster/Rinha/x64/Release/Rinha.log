@@ -65,12 +65,8 @@ C:\TBRB\Rooster\Rinha\GaloSniper.h(157,87): warning C4244: '+=': conversão de '
 C:\TBRB\Rooster\Rinha\GaloSniper.h(158,87): warning C4244: '+=': conversão de 'double' para 'float', possível perda de dados
 C:\TBRB\Rooster\Rinha\GaloSniper.h(160,90): warning C4244: '+=': conversão de 'double' para 'float', possível perda de dados
 C:\TBRB\Rooster\Rinha\GaloSniper.h(161,90): warning C4244: '+=': conversão de 'double' para 'float', possível perda de dados
-C:\TBRB\Rooster\Rinha\Rinha.cpp(28,22): warning C4305: 'argumento': truncamento de 'int' para 'unsigned short'
-C:\TBRB\Rooster\Rinha\Rinha.cpp(28,17): warning C4309: 'argumento': truncamento de valor constante
-C:\TBRB\Rooster\Rinha\Rinha.cpp(30,32): warning C4305: 'inicializando': truncamento de 'int' para 'unsigned short'
-C:\TBRB\Rooster\Rinha\Rinha.cpp(30,27): warning C4309: 'inicializando': truncamento de valor constante
   Gerando código
-  1 of 228 functions ( 0.4%) were compiled, the rest were copied from previous compilation.
+  2 of 241 functions ( 0.8%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
     0 functions had inline decision re-evaluated but remain unchanged
   Finalizada a geração de código
