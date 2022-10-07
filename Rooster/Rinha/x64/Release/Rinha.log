@@ -1,0 +1,77 @@
+﻿  Rinha.cpp
+C:\TBRB\Rooster\Rinha\Elementos.h(51,20): warning C4244: '=': conversão de 'int' para 'T', possível perda de dados
+          with
+          [
+              T=float
+          ]
+C:\TBRB\Rooster\Rinha\Elementos.h(52,20): warning C4244: '=': conversão de 'int' para 'T', possível perda de dados
+          with
+          [
+              T=float
+          ]
+C:\TBRB\Rooster\Rinha\Elementos.h(53,18): warning C4244: '=': conversão de 'int' para 'T', possível perda de dados
+          with
+          [
+              T=float
+          ]
+C:\TBRB\Rooster\Rinha\Elementos.h(54,18): warning C4244: '=': conversão de 'int' para 'T', possível perda de dados
+          with
+          [
+              T=float
+          ]
+C:\TBRB\Rooster\Rinha\Elementos.h(59,25): warning C4244: '=': conversão de 'int' para 'T', possível perda de dados
+          with
+          [
+              T=float
+          ]
+C:\TBRB\Rooster\Rinha\Elementos.h(60,25): warning C4244: '=': conversão de 'int' para 'T', possível perda de dados
+          with
+          [
+              T=float
+          ]
+C:\TBRB\Rooster\Rinha\Elementos.h(66,20): warning C4244: '=': conversão de 'int' para 'T', possível perda de dados
+          with
+          [
+              T=float
+          ]
+C:\TBRB\Rooster\Rinha\Elementos.h(67,20): warning C4244: '=': conversão de 'int' para 'T', possível perda de dados
+          with
+          [
+              T=float
+          ]
+C:\TBRB\Rooster\Rinha\Elementos.h(94,24): warning C4244: 'inicializando': conversão de 'double' para 'float', possível perda de dados
+C:\TBRB\Rooster\Rinha\Galo.h(80,91): warning C4244: 'argumento': conversão de 'float' para 'int', possível perda de dados
+C:\TBRB\Rooster\Rinha\Galo.h(80,86): warning C4244: 'argumento': conversão de 'float' para 'int', possível perda de dados
+C:\TBRB\Rooster\Rinha\Galo.h(80,77): warning C4244: 'argumento': conversão de 'float' para 'int', possível perda de dados
+C:\TBRB\Rooster\Rinha\Galo.h(80,68): warning C4244: 'argumento': conversão de 'float' para 'int', possível perda de dados
+C:\TBRB\Rooster\Rinha\Galo.h(80,63): warning C4244: 'argumento': conversão de 'float' para 'int', possível perda de dados
+C:\TBRB\Rooster\Rinha\Galo.h(80,58): warning C4244: 'argumento': conversão de 'float' para 'int', possível perda de dados
+C:\TBRB\Rooster\Rinha\Galo.h(80,52): warning C4244: 'argumento': conversão de 'float' para 'int', possível perda de dados
+C:\TBRB\Rooster\Rinha\Galo.h(80,46): warning C4244: 'argumento': conversão de 'float' para 'int', possível perda de dados
+C:\TBRB\Rooster\Rinha\Galo.h(154,36): warning C4244: '+=': conversão de 'double' para 'float', possível perda de dados
+C:\TBRB\Rooster\Rinha\GaloSniper.h(81,36): warning C4244: '+=': conversão de 'double' para 'float', possível perda de dados
+C:\TBRB\Rooster\Rinha\GaloSniper.h(138,88): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
+C:\TBRB\Rooster\Rinha\GaloSniper.h(139,88): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
+C:\TBRB\Rooster\Rinha\GaloSniper.h(141,87): warning C4244: '+=': conversão de 'double' para 'float', possível perda de dados
+C:\TBRB\Rooster\Rinha\GaloSniper.h(142,87): warning C4244: '+=': conversão de 'double' para 'float', possível perda de dados
+C:\TBRB\Rooster\Rinha\GaloSniper.h(144,90): warning C4244: '+=': conversão de 'double' para 'float', possível perda de dados
+C:\TBRB\Rooster\Rinha\GaloSniper.h(145,90): warning C4244: '+=': conversão de 'double' para 'float', possível perda de dados
+C:\TBRB\Rooster\Rinha\GaloSniper.h(150,1): warning C4305: '*=': truncamento de 'double' para 'float'
+C:\TBRB\Rooster\Rinha\GaloSniper.h(151,1): warning C4305: '*=': truncamento de 'double' para 'float'
+C:\TBRB\Rooster\Rinha\GaloSniper.h(152,1): warning C4305: '*=': truncamento de 'double' para 'float'
+C:\TBRB\Rooster\Rinha\GaloSniper.h(154,88): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
+C:\TBRB\Rooster\Rinha\GaloSniper.h(155,88): warning C4244: '=': conversão de 'double' para 'float', possível perda de dados
+C:\TBRB\Rooster\Rinha\GaloSniper.h(157,87): warning C4244: '+=': conversão de 'double' para 'float', possível perda de dados
+C:\TBRB\Rooster\Rinha\GaloSniper.h(158,87): warning C4244: '+=': conversão de 'double' para 'float', possível perda de dados
+C:\TBRB\Rooster\Rinha\GaloSniper.h(160,90): warning C4244: '+=': conversão de 'double' para 'float', possível perda de dados
+C:\TBRB\Rooster\Rinha\GaloSniper.h(161,90): warning C4244: '+=': conversão de 'double' para 'float', possível perda de dados
+C:\TBRB\Rooster\Rinha\Rinha.cpp(28,22): warning C4305: 'argumento': truncamento de 'int' para 'unsigned short'
+C:\TBRB\Rooster\Rinha\Rinha.cpp(28,17): warning C4309: 'argumento': truncamento de valor constante
+C:\TBRB\Rooster\Rinha\Rinha.cpp(30,32): warning C4305: 'inicializando': truncamento de 'int' para 'unsigned short'
+C:\TBRB\Rooster\Rinha\Rinha.cpp(30,27): warning C4309: 'inicializando': truncamento de valor constante
+  Gerando código
+  1 of 228 functions ( 0.4%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finalizada a geração de código
+  Rinha.vcxproj -> C:\TBRB\Rooster\x64\Release\Rinha.exe
