@@ -1,6 +1,7 @@
 #ifndef GALO_H_included
 #define GALO_H_included
 
+#include "IAtaques.h"
 #include "Elementos.h"
 
 namespace Rooster {
@@ -35,7 +36,7 @@ namespace Rooster {
         int radius;
     } HitBox;
 
-    class Galo {
+    class Galo : public IAtaques{
 
     protected:
         HitBox hitbox;
@@ -84,7 +85,7 @@ namespace Rooster {
 
 
 
-        explicit Galo(HitBox _hitbox, int atk, int def, int speed, int _state) {
+        Galo(HitBox _hitbox, int atk, int def, int speed, int _state) {
             hitbox = _hitbox;
             this->atk = atk;
             this->def = def;
@@ -96,22 +97,22 @@ namespace Rooster {
             this->vspeed = 0;
         }
 
-        RectangleShape getSprite() {
+        inline RectangleShape getSprite() {
             return r;
         }
-        void setState(state estado) {
+        void inline setState(state estado) {
             this->estado = estado;
         }
-        void setState(int estado) {
+        void inline setState(int estado) {
             this->estado = estado;
         }
-        void setHspeed(float spd) {
+        void inline setHspeed(float spd) {
             hspeed = spd;
         }
-        void setInitFrames(int initframes) {
+        void inline setInitFrames(int initframes) {
             initFrames = initframes;
         }
-        int getFrames() {
+        int inline getFrames() {
             return frames;
         }
 
@@ -169,11 +170,6 @@ namespace Rooster {
                 elementos.at(i)->update(elem->position.x, elem->position.y, elem->angle + elem->otherAngle);
             }
         }
-
-        virtual void HeavyAttack() = 0;
-        virtual void LightAttack() = 0;
-
-
     };
 
 }

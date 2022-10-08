@@ -141,6 +141,7 @@
     <ClInclude Include="fregues.h" />
     <ClInclude Include="Galo.h" />
     <ClInclude Include="GaloSniper.h" />
+    <ClInclude Include="IAtaques.h" />
     <ClInclude Include="muitosjogadores.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
