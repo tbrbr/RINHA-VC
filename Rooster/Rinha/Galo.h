@@ -148,7 +148,7 @@ namespace Rooster {
             }
         }
 
-        virtual void update(int mx, int my) {
+        virtual void update() {
 
             if (air) {
                 vspeed += peso * G / 100;

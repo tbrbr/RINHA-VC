@@ -8,6 +8,8 @@
 
 using namespace sf;
 
+using namespace std;
+
 #define FRAMERATE_LIMIT 60
 #define G 9.81
 #define PI 3.1415926563
@@ -16,56 +18,18 @@ using namespace sf;
 #include "Elementos.h"
 #include "Galo.h"
 #include "GaloSniper.h"
-#include "fregues.h"
-
 
 using namespace Rooster;
-using namespace std;
 
-int mouseX = 0;
-int mouseY = 0;
+#include "fregues.h"
+#include "muitosjogadores.h"
+
+
+
+
 
 void _inline singlePlayer(RenderWindow * window, Event& e, Galo& galo,int &option) {
 
-	/*
-	if (e.type == Event::KeyPressed)
-	{
-		if (e.key.code == Keyboard::W)
-		{
-			galo.animJump();
-
-		}
-		if (e.key.code == Keyboard::A)
-		{
-			galo.setState(Rooster::RUNNING);
-			galo.facingRight = false;
-			galo.animRun();
-
-		}
-		if (e.key.code == Keyboard::D)
-		{
-			galo.setState(Rooster::state::RUNNING);
-			galo.facingRight = true;
-			galo.animRun();
-
-		}
-	}
-	*/
-
-	/*
-	if (e.type == Event::KeyReleased)
-	{
-		if (e.key.code == Keyboard::A)
-		{
-			galo.setState(Rooster::RUNNING);
-			galo.facingRight = false;
-			galo.animRun();
-		}
-		if (e.key.code == Keyboard::D)
-		{
-		}
-	}
-	*/
 
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::D))
 	{
@@ -93,7 +57,7 @@ void _inline singlePlayer(RenderWindow * window, Event& e, Galo& galo,int &optio
 		galo.animJump();
 	}
 
-	galo.update(mouseX, mouseY);
+	galo.update();
 
 	window->clear();
 	RectangleShape fundo(Vector2f(1280, 720));
@@ -126,14 +90,13 @@ int main() {
 	t.loadFromFile("sprites/galoSniper.png");
 
 
-	Rooster::Sniper galo = Sniper(hb, 20, 20, 20, Rooster::state::STOPPED, t);
-
+	Sniper galo = Sniper(hb, 20, 20, 20, Rooster::state::STOPPED, t);
+	Sniper galo2 = Sniper(hb, 20, 20, 20, Rooster::state::STOPPED, t);
 
 	socket.setBlocking(false);
 
 	while (window->isOpen())
 	{
-
 		Event e;
 		while (window->pollEvent(e))
 		{
@@ -141,7 +104,6 @@ int main() {
 			{
 				window->close();
 			}
-			
 		}
 		switch (option)
 		{
@@ -152,8 +114,6 @@ int main() {
 			break;
 		}
 
-
-		
 	}
 	return 0;
 }

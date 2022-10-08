@@ -74,7 +74,7 @@ namespace Rooster {
 
         void HeavyAttack()override {}
 
-        void update(int mx, int my) override {
+        void update() override {
 
 
             if (air) {
